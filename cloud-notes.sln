@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cloud-notes-webapp", "cloud-notes-webapp\cloud-notes-webapp.csproj", "{36D04B23-92DE-4F22-AF7E-7FBDCBD83562}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cloud-notes-webapp", "cloud-notes-webapp\cloud-notes-webapp.csproj", "{9CA76740-0785-4B07-92F8-C4FFCB5A2568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36D04B23-92DE-4F22-AF7E-7FBDCBD83562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36D04B23-92DE-4F22-AF7E-7FBDCBD83562}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36D04B23-92DE-4F22-AF7E-7FBDCBD83562}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36D04B23-92DE-4F22-AF7E-7FBDCBD83562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA76740-0785-4B07-92F8-C4FFCB5A2568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA76740-0785-4B07-92F8-C4FFCB5A2568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA76740-0785-4B07-92F8-C4FFCB5A2568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA76740-0785-4B07-92F8-C4FFCB5A2568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

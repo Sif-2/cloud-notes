@@ -4,8 +4,20 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-cloud_notes_webapp-D80F7A5B-3AB5-4028-99F9-D48C0C0B9419</UserSecretsId>
         <RootNamespace>cloud_notes_webapp</RootNamespace>
-        <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.13"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.13"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.13"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.13"/>
+    </ItemGroup>
 
 </Project>
