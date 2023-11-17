@@ -5,8 +5,11 @@ using cloud_notes_webapp.Data;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
-                          throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+string connectionString = Environment.GetEnvironmentVariable("ConnectionString") 
+                          ?? builder.Configuration.GetConnectionString("DefaultConnection")
+                          ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
